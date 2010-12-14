@@ -2,8 +2,6 @@
 
 ICH="icecast files (ices.conf and playlist.txt) path" #CHANGE
 MUSDIR="music directory path"	#CHANGE
-# mount fs
-m=`df |grep encfs |wc -l`
 
 cd $ICH
 #check if processes runs
